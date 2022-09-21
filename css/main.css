@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+    width: 100%;
+}
+.button{
+    height:50px ;
+    width: 140px;
+    display: inline-block;
+    text-align: center;
+    padding: 11px 22px 15px 22px;
+    background-color: #090e0e00;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    transition: .5s;
+}
+.button:hover{
+    border: 2px solid #CF404D;
+    border-radius: 4px;
+    background: #CF404D;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+
+
+/* Header start */
+.header__buttons-texts{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header__title{
+    font-weight: 400;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 50px;
+    /* margin-top: 305px; */
+    margin-bottom: 35px;
+}
+.header__button button{
+    margin-bottom: 325px;
+}
+.header__buttons{
+    margin-left: 419px;
+}
+.header__button{
+    margin-bottom: 325px;
+}
+
+.header__container{
+    background: url(../img/header__background.svg) no-repeat ;
+    width: 100%;
+    
+    padding-top: 305px;
+    
+
+}
+/* Header end */
+
+
+/* Heading start */
+.heading__title{
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #313131;
+    font-size: 31px;
+    margin-top: 48px;
+    margin-bottom: 22px;
+}
+.heading__txt{
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(115, 115, 115, 0.74);
+    font-size: 19px;
+    margin-bottom: 75px;
+}
+.heading__card-title{
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #313131;
+    font-size: 17px;
+    margin-top: 45px;
+    margin-bottom: 11px;
+}
+.heading__icon-text{
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 15px;
+    margin-bottom: 7px;
+    max-width: 219px;
+}
+.heading__icon-txt{
+    font-weight: 400;
+    line-height: 20px;
+    color: #CF404D;
+    font-size: 16px;
+    margin-bottom: 75px;
+}
+.heading__cards{
+    display: flex;
+    justify-content: space-between;
+}
+/* Heading end */
+
+/* call start */
+.call__title{
+    font-weight: 400;
+    line-height: 36px;
+    color: #FFFFFF;
+    font-size: 31px;
+    margin-left: 86px;
+}
+.call__container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 41px;
+    padding-bottom: 44px;
+    background: #CF404D;
+}
+.call__button{
+    margin-right: 91px;
+}
+/* call end */
+
+/* lightbox start */
+.lightbox__title{
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #313131;
+    font-size: 31px;
+    margin-top: 57px;
+    margin-bottom: 22px;
+}
+.lightbox__text{
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(115, 115, 115, 0.74);
+    font-size: 19px;
+    margin-bottom: 72px;
+}
+.lightbox__pictures{
+    display: flex;
+    column-gap: 20px;
+    padding-left: 96px;
+}
+.lightbox__image{
+    margin-bottom: 20px;
+}
+/* lightbox end */
+
+
+/* contact start */
+.contact__title{
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #313131;
+    font-size: 31px;
+    margin-top: 131px;
+}
+.contact__text{
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(115, 115, 115, 0.74);
+    font-size: 19px;
+    margin-top: 22px;
+    margin-bottom: 62px;
+}
+.contact__input{
+    width: 281px;
+    height: 45px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 31px;
+}
+.contact__form{
+    display: flex;
+    column-gap: 22px;
+    margin-left: 264px;
+}
+.contact__form-input{
+    width: 583px;
+    height: 110px;
+    padding-top: 22px;
+    padding-left: 31px;
+}
+.contact__form2{
+    margin-left: 264px;
+    margin-top: 17px ;
+    margin-bottom: 17px ;
+}
+.contact__button{
+    width: 583px;
+    height: 45px;
+    margin-left: 264px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    background-color: #CF404D;
+    display: inline-block;
+    padding-top: 12px;
+    
+}
+.contact{
+    background: #FAFAFA;
+    border-radius: 0px;
+}
+/* contact end */
+
+
+/* Footer start */
+.footer__txt{
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 16px;
+}
+footer{
+    margin-top: 103px;
+    margin-bottom: 20px;
+}
+/* Footer end */
